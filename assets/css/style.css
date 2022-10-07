@@ -1,15 +1,3 @@
-/* test */
-* {
-    display: inline;
-}
-.col {
-    background-color: aquamarine;
-}
-#left-aside-results {
-    background: turquoise;
-    display: inline-block;
-    margin-left: 1%;
-}
 
 .homepage {
     border: 5px solid blue;
