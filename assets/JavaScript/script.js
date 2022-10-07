@@ -6,3 +6,16 @@
 
 
 // api url = https://www.loc.gov/fo=json
+var request = 'https://www/loc/gov/' + 'fo=json'; //will need some string variables to get the actual request
+
+//get data from the API
+fetch(request, {mode: 'cors'}).then(function (response)
+{
+    //check what we got
+    console.log(response.status);
+
+    response.json().then(function (data)
+    {
+        //create a function to display the data
+    });
+});
