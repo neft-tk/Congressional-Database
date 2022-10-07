@@ -6,3 +6,8 @@
 
 
 // api url = https://www.loc.gov/fo=json
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
