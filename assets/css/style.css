@@ -1,0 +1,13 @@
+/* test */
+* {
+    display: inline;
+}
+.col {
+    background-color: aquamarine;
+}
+#left-aside-results {
+    background: turquoise;
+    display: inline-block;
+    margin-left: 1%;
+}
+
